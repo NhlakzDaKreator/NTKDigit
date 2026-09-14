@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — NTK Digitals</title>
+<meta name="description" content="Start a project with NTK Digitals, or get in touch about a partnership or investment conversation. Based in Johannesburg, working across South Africa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">
+      <span class="mark"><img src="IMAGES/logo.png" alt="NTK Digitals mark"></span>
+      <span class="word">NTK Digitals</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html">Solutions</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="partners.html">Partners</a>
+      <a href="contact.html" class="current">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="contact.html" class="btn btn-primary btn-sm">Start a Project</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobilePanel"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-panel container" id="mobilePanel" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="services.html">Solutions</a>
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="partners.html">Partners</a>
+    <a href="contact.html" class="current">Contact</a>
+    <a href="contact.html" class="btn btn-primary btn-sm">Start a Project</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+    <span class="kicker">Contact</span>
+    <h1>Tell us about the project or the partnership</h1>
+    <p>Send through as much or as little detail as you have. A short discovery conversation will fill in the rest.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="contact-grid">
+      <div>
+        <div class="contact-note">
+          <strong>Not sure what you need?</strong>
+          <p>Tell us what you're trying to achieve and we'll help identify the right digital solution together.</p>
+        </div>
+
+        <!--
+          This form sends to your Gmail via Web3Forms (a free form-relay service - no
+          server needed). To activate it:
+          1. Go to https://web3forms.com and sign up with nhlakzmukansi720@gmail.com
+          2. Copy the access key it gives you
+          3. Paste it in place of "YOUR_WEB3FORMS_ACCESS_KEY" below
+          Until you do that, the form will show an error instead of sending.
+        -->
+        <form id="contactForm">
+          <input type="hidden" name="access_key" value="8cb8de32-cffa-4e94-962a-dd584d6e8071">
+          <input type="hidden" name="subject" value="New enquiry from the NTK Digitals website">
+          <input type="text" name="botcheck" style="display:none">
+          <div class="form-field"><label for="cf-name">Full name</label><input id="cf-name" name="name" type="text" required></div>
+          <div class="form-field"><label for="cf-email">Email address</label><input id="cf-email" name="email" type="email" required></div>
+          <div class="form-field"><label for="cf-type">What are you reaching out about?</label>
+            <select id="cf-type" name="project_type">
+              <option>Website</option>
+              <option>Software / web app</option>
+              <option>Branding</option>
+              <option>UI/UX design</option>
+              <option>Graphic design</option>
+              <option>Digital marketing</option>
+              <option>Content / motion</option>
+              <option>Technology / infrastructure</option>
+              <option>Partnership or investment</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="cf-details">Details</label><textarea id="cf-details" name="message" required placeholder="What are you trying to solve?"></textarea></div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p id="formMsg" style="display:none;" role="status"></p>
+        </form>
+      </div>
+
+      <div class="contact-details">
+        <div class="row"><b>Phone</b><a href="tel:+27664054123">+27 66 405 4123</a></div>
+        <div class="row"><b>WhatsApp</b><a href="https://wa.me/27664054123" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+        <div class="row"><b>Email</b><a href="mailto:nhlakzmukansi720@gmail.com">nhlakzmukansi720@gmail.com</a></div>
+        <div class="row"><b>Location</b><span>Johannesburg, South Africa</span></div>
+        <div class="row"><b>Hours</b><span>Monday to Friday, 08:00 to 17:00 SAST</span></div>
+        <div class="row">
+          <b>Follow</b>
+          <div class="social-row" style="margin-top:6px;">
+            <a href="https://www.instagram.com/ntkdigitals?stkn=MXdsNm9ycWZwaTd5cw%3D%3D&utm_source=qr" class="social-badge ig" aria-label="Instagram (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 2.5h10A4.5 4.5 0 0 1 21.5 7v10a4.5 4.5 0 0 1-4.5 4.5H7A4.5 4.5 0 0 1 2.5 17V7A4.5 4.5 0 0 1 7 2.5zm0 2A2.5 2.5 0 0 0 4.5 7v10A2.5 2.5 0 0 0 7 19.5h10a2.5 2.5 0 0 0 2.5-2.5V7A2.5 2.5 0 0 0 17 4.5H7zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg></a>
+            <a href="https://www.tiktok.com/@ntkdigitals?_r=1&_t=ZS-99dvV8CeYS1" class="social-badge tt" aria-label="TikTok (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8c-.8-.9-1.3-2-1.4-3.3h-3.1v13.4a2.7 2.7 0 1 1-1.9-2.6V9.9a5.8 5.8 0 1 0 5 5.7V9.4a7.6 7.6 0 0 0 4.4 1.4V7.7c-1 0-2.1-.3-3-.7-.4-.2-.7-.4-1-.6a5 5 0 0 1-1-.6z"/></svg></a>
+            <a href="https://www.facebook.com/share/18TsEqpqkS/?mibextid=wwXIfr" class="social-badge fb" aria-label="Facebook (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 8.5h-2c-.6 0-1 .5-1 1.2v2.1h3l-.4 3h-2.6V21h-3v-6.2H7v-3h2.5v-2.4c0-2.5 1.5-4.1 3.9-4.1 1.1 0 2.1.1 2.1.1v3z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="container foot-top">
+    <div class="foot-brand">
+      <a href="index.html" class="brand"><span class="mark"><img src="IMAGES/logo.png" alt="NTK Digitals mark"></span><span class="word">NTK Digitals</span></a>
+      <p>A digital agency covering branding, websites, software and growth today, building toward a connected technology company.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Solutions</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="partners.html">Partners</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>Solutions</h4>
+      <ul>
+        <li><span>Websites &amp; software</span></li>
+        <li><span>Brand &amp; identity</span></li>
+        <li><span>UI/UX &amp; product design</span></li>
+        <li><span>Content &amp; marketing</span></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:nhlakzmukansi720@gmail.com">nhlakzmukansi720@gmail.com</a></li>
+        <li><a href="tel:+27664054123">+27 66 405 4123</a></li>
+        <li><span>Johannesburg, South Africa</span></li>
+      </ul>
+      <div class="social-row">
+        <a href="https://wa.me/27664054123" class="social-badge wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.6-1.2 1.2-1.9 1.3-.5.1-1.1.2-3.5-.7-2.9-1.2-4.8-4.1-4.9-4.3-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.2-.3.4-.1.7.2.3.9 1.4 1.9 2.3 1.3 1.1 2.4 1.5 2.7 1.6.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.7.8 2 .9.3.2.5.2.6.4.1.1.1.7-.1 1.3z"/></svg></a>
+        <a href="https://www.instagram.com/ntkdigitals?stkn=MXdsNm9ycWZwaTd5cw%3D%3D&utm_source=qr" class="social-badge ig" aria-label="Instagram (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 2.5h10A4.5 4.5 0 0 1 21.5 7v10a4.5 4.5 0 0 1-4.5 4.5H7A4.5 4.5 0 0 1 2.5 17V7A4.5 4.5 0 0 1 7 2.5zm0 2A2.5 2.5 0 0 0 4.5 7v10A2.5 2.5 0 0 0 7 19.5h10a2.5 2.5 0 0 0 2.5-2.5V7A2.5 2.5 0 0 0 17 4.5H7zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg></a>
+        <a href="https://www.tiktok.com/@ntkdigitals?_r=1&_t=ZS-99dvV8CeYS1" class="social-badge tt" aria-label="TikTok (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.8c-.8-.9-1.3-2-1.4-3.3h-3.1v13.4a2.7 2.7 0 1 1-1.9-2.6V9.9a5.8 5.8 0 1 0 5 5.7V9.4a7.6 7.6 0 0 0 4.4 1.4V7.7c-1 0-2.1-.3-3-.7-.4-.2-.7-.4-1-.6a5 5 0 0 1-1-.6z"/></svg></a>
+        <a href="https://www.facebook.com/share/18TsEqpqkS/?mibextid=wwXIfr" class="social-badge fb" aria-label="Facebook (add your link)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 8.5h-2c-.6 0-1 .5-1 1.2v2.1h3l-.4 3h-2.6V21h-3v-6.2H7v-3h2.5v-2.4c0-2.5 1.5-4.1 3.9-4.1 1.1 0 2.1.1 2.1.1v3z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <p>© 2026 NTK Digital Solutions.</p>
+    <div class="foot-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
